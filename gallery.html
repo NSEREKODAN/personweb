@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallerypage</title>
+    <style>
+    body{
+        border: dashed;
+        border-color: yellow;
+        background-color: deeppink;
+    }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: dotted;
+        }
+        nav ul li a:hover{
+            background-color: blue;
+            color: chocolate;
+        }
+        .image{
+            width: 100px;
+            border-radius: 50px;
+        }
+        .caption{
+            background-color: blueviolet;
+            margin-left: 60px;
+            display: contents;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="contact.html">contactpage</a></li>
+            <li><a href="achievement.html">achievementpage</a></li>
+            <li><a href="gallery.html">gallerypage</a></li>
+        </ul>
+    </nav>
+    <div>
+    <div class="image">
+        <img src="dane.jpg" style="padding: 5px;width: 600px;border-radius: 300px;margin-left: 50px;">
+        <div class="caption">
+            <p style="display: inline;padding-left: 60px;font-style: italic;color: fuchsia;">My picture at campus</p>
+        </div>
+    </div>
+    <div class="image">
+        <img src="danio.jpg" style="padding: 5px;width: 600px;border-radius: 300px;margin-left: 50px;">
+        <div class="caption">
+            <p style="display: inline;padding-left: 60px;font-style: italic;color: fuchsia;">My picture at home</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
