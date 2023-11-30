@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactpage</title>
+    <style>
+        body{
+            border-color: chartreuse;
+            border-style: groove;
+            background-color: deeppink;
+        }
+
+        .nick{
+            padding: 60px;
+
+            
+        }
+        h1{
+            color: brown;
+            font-family: monospace;
+            display: grid;
+            font-style: italic;
+        }
+        p{
+            font-size: larger;
+            color: gold;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+        }
+        nav ul li a{
+            text-decoration: none;
+        }
+        nav ul li a:hover{
+            background-color: red;
+            padding: 20px;
+            color: aquamarine;
+        }
+        .nick{
+            width: 300px;
+            height: 400px;
+            background-color: red;
+            -webkit-animation: myfirst 6s;/*chrome,safari,opera*/
+            animation: myfirst 6s;
+        }
+        /*chrome,safari,opera*/
+        @-webkit-keyframes myfirst{
+            from{background: red;}
+            to{background: green;}
+        }
+        /*standard syntax*/
+        from{background: red;}
+        to{background: green;}
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">homepage</a></li>
+            <li><a href="contact.html">contactpage</a></li>
+            <li><a href="achievement.html">achievementpage</a></li>
+            <li><a href="gallery.html">gallerypage</a></li>
+        </ul>
+    </nav>
+    
+    <div class="nick">
+    <h1>Physical location</h1>
+    <p> Dstrict-Nakaseke south</p>
+    <p>Sub-county Kapeeka</p>
+    <p>county-Semuto</p>
+    <p>Town-Semuto</p>
+
+    <h1>contacts</h1>
+    <p>Telephone-no 0703170353</p>
+    <p>Email- nserekodan@gmail.com</p>
+   </div>
+</body>
+</html>
